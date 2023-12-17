@@ -1,10 +1,10 @@
 //WAP to print the fibonacci series.
 #include <stdio.h>
-
 int main() {
-    int n, first = 0, second = 1, next;
+    int n,first=0, second=1, next;
     printf("Enter the number: ");
-    scanf("%d", &n);
+    scanf("%d",&n);
+    
 
     printf("Fibonacci series:\n");
 
@@ -13,7 +13,8 @@ int main() {
         next = first + second;
         first = second;
         second = next;
-    }
+    } 
 
-    return 0;
+    return 0; 
+
 }
