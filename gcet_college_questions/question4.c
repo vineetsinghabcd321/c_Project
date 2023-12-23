@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &a);
 
     printf("Enter the value of b");
-    scanf("%d", &b);
+    scanf("%d", &b); 
 
     c = a;
     a = b;

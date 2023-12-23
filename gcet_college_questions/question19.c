@@ -3,7 +3,7 @@
 int main() {
     int i, num1, num2, mem, sum;
 
-for( i =1; i<=1000; i++) {
+for( i =1; i<=100; i++) {
     num1 = i;
         sum=0;
         mem=num1;
